@@ -27,7 +27,7 @@
         <input type="radio" name="gender" value="male" id="gender" {{ old('gender')=='male' ? 'checked':''}}>
         <br>
         女性
-        <input type="radio" name="gender" value="female" id="gender" {{old('gender')=='female' ? 'cheked': ''}}>
+        <input type="radio" name="gender" value="female" id="gender" {{old('gender')=='female' ? 'checked': ''}}>
         </div>
     </div>
     <div class="form-group row">
