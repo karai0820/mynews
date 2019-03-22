@@ -63,8 +63,7 @@ class NewsController extends Controller
         {
             abort(404);
         }
-        \Debugbar::info($news);
-        return view('admin.news.edit',['news_form'=>$news]);
+            return view('admin.news.edit',['news_form'=>$news]);
     }
 
     public function update(Request $request)
